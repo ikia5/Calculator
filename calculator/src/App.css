@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.calculator{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.display{
+  width: 20rem;
+  background-color: rgb(255, 254, 212);
+  height: 3rem;
+  color: black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  font-size: 25px;
+}
+
+button{
+  border: 1px solid white;
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+button:hover{
+  background-color: rgb(95, 95, 95);
+}
